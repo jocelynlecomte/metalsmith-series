@@ -18,6 +18,7 @@ You have to pass a configuration object containing the following properties:
 
 Very simple configuration object:
 
+```javascript
 {
     series: {
         'awesome-serie': {
@@ -28,9 +29,11 @@ Very simple configuration object:
         }
     }
 }
+```
 
 More complete configuration object: 
 
+```javascript
 {
     series: {
         'awesome-serie': {
@@ -48,6 +51,7 @@ More complete configuration object:
     sortByProperty: 'pubdate',
     reverse: true
 }
+```
 
 ## CLI Usage
 
